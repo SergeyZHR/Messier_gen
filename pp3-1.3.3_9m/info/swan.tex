@@ -1,0 +1,2484 @@
+\documentclass[10pt]{article}
+
+\nofiles\usepackage[dvips]{color}
+\usepackage{pstricks,pst-text}
+\newcommand*{\DP}{.}
+\newcommand*{\TicMark}[1]{#1}
+\newcommand*{\Label}[1]{#1}
+\newcommand*{\TextLabel}[1]{#1}
+\newcommand*{\FlexLabel}[1]{#1}
+\newcommand*{\Starname}[1]{#1}
+\newcommand*{\Messier}[1]{M\,#1}
+\newcommand*{\NGC}[1]{NGC\,#1}
+\newcommand*{\IC}[1]{IC\,#1}
+
+\usepackage{mathptmx}
+\usepackage{helvet}
+\AtBeginDocument{\sffamily}
+\usepackage[nohead,nofoot,margin=0cm,paperwidth=426bp,paperheight=426bp]{geometry}
+
+
+\begin{document}\parindent0pt
+\pagestyle{empty}\thispagestyle{empty}%
+\special{papersize=425.900bp,425.900bp}%
+\vbox to 426bp{\vfill\hbox to 426bp{%
+\newrgbcolor{bgcolor}{1.000 1.000 1.000}%
+\newrgbcolor{gridcolor}{0.500 0.500 0.500}%
+\newrgbcolor{eclipticcolor}{0.300 0.300 0.300}%
+\newrgbcolor{boundarycolor}{0.800 0.800 0.800}%
+\newrgbcolor{hlboundarycolor}{0.000 0.000 0.000}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\newrgbcolor{nebulacolor}{0.000 0.000 0.000}%
+\newrgbcolor{clinecolor}{0.700 0.700 0.700}%
+\psclip{\psframe[linestyle=none](0bp,0bp)(426bp,426bp)}%
+\psframe*[linecolor=bgcolor,linestyle=none](-1bp,-1bp)(427bp,427bp)%
+\psset{linestyle=solid,linecolor=gridcolor,linewidth=0.025cm}%
+\psset{linewidth=0.050cm}%
+\psset{linewidth=0.025cm}%
+\pscurve(14.941,0.791)(14.224,0.605)%
+(12.779,0.292)(11.323,0.056)(10.906,0.003)\relax
+\pscurve(4.092,0.003)(3.987,0.016)(2.529,0.235)%
+(1.082,0.532)(0.056,0.792)\relax
+\pscurve(14.909,3.462)(14.810,3.430)(13.425,3.033)(12.021,2.722)(10.604,2.498)%
+(9.178,2.357)(7.746,2.301)(6.314,2.329)(4.886,2.440)%
+(3.465,2.636)(2.056,2.916)(0.663,3.284)(0.073,3.468)\relax
+\pscurve(14.939,6.216)(14.751,6.141)(13.413,5.677)(12.049,5.312)(10.663,5.045)%
+(9.264,4.876)(7.857,4.803)(6.448,4.827)(5.044,4.947)%
+(3.651,5.164)(2.275,5.480)(0.922,5.894)(0.069,6.213)\relax
+\pscurve(14.996,9.103)(14.184,8.708)%
+(12.880,8.191)(11.536,7.793)(10.164,7.512)(8.773,7.348)%
+(7.373,7.300)(5.974,7.369)(4.586,7.554)(3.218,7.856)%
+(1.881,8.276)(0.585,8.814)(0.046,9.081)\relax
+\pscurve(14.962,12.189)(14.555,11.899)(13.350,11.185)(12.068,10.618)(10.728,10.200)%
+(9.349,9.929)(7.948,9.808)(6.542,9.834)(5.147,10.010)%
+(3.781,10.334)(2.460,10.807)(1.204,11.427)(0.032,12.193)%
+(0.032,12.193)\relax
+\pscurve(14.066,14.973)(13.635,14.555)(12.515,13.710)(11.266,13.057)%
+(9.924,12.604)(8.523,12.353)(7.099,12.308)(5.684,12.469)%
+(4.312,12.834)(3.018,13.400)(1.837,14.162)(0.943,14.964)\relax
+\pscurve(9.073,14.993)(7.834,14.809)(6.375,14.898)(5.966,14.984)\relax
+\pscurve(0.039,14.696)(0.327,14.956)\relax
+\pscurve(14.964,14.411)(14.399,14.940)\relax
+\pscurve(14.983,10.542)(14.350,11.582)(13.635,12.681)(12.884,13.757)%
+(12.099,14.808)(11.984,14.956)\relax
+\pscurve(14.994,0.794)(14.755,1.958)(14.468,3.204)%
+(14.153,4.442)(13.810,5.671)(13.439,6.892)(13.042,8.103)%
+(12.618,9.305)(12.169,10.498)(11.693,11.681)(11.191,12.853)%
+(10.662,14.015)(10.228,14.919)\relax
+\pscurve(11.177,0.025)(11.063,1.183)(10.926,2.428)%
+(10.775,3.671)(10.610,4.912)(10.431,6.151)(10.239,7.388)%
+(10.033,8.623)(9.814,9.856)(9.581,11.086)(9.335,12.313)%
+(9.075,13.538)(8.801,14.760)(8.761,14.935)\relax
+\pscurve(7.307,0.056)(7.312,0.945)(7.319,2.190)%
+(7.327,3.434)(7.336,4.678)(7.345,5.923)(7.355,7.167)%
+(7.366,8.412)(7.378,9.656)(7.390,10.901)(7.403,12.145)%
+(7.417,13.389)(7.431,14.634)(7.435,14.989)\relax
+\pscurve(3.438,0.078)(3.564,1.236)(3.716,2.481)%
+(3.883,3.724)(4.066,4.964)(4.263,6.202)(4.476,7.438)%
+(4.703,8.670)(4.945,9.900)(5.202,11.127)(5.474,12.351)%
+(5.762,13.571)(6.064,14.788)(6.109,14.962)\relax
+\pscurve(0.007,2.601)(0.184,3.312)%
+(0.516,4.549)(0.877,5.776)(1.267,6.994)(1.685,8.202)%
+(2.131,9.400)(2.604,10.587)(3.104,11.763)(3.631,12.928)%
+(4.186,14.080)(4.642,14.977)\relax
+\pscurve(0.039,11.082)(0.445,11.715)(1.184,12.803)(1.959,13.866)%
+(2.768,14.904)(2.827,14.977)\relax
+\psset{linestyle=dashed,linecolor=eclipticcolor,linewidth=0.018cm}%
+\psset{linecolor=boundarycolor,linewidth=0.035cm,linestyle=dashed}%
+\pscurve[liftpen=2]{c-c}(0.229,13.122)(0.346,13.025)(0.465,12.930)(0.585,12.836)%
+(0.707,12.745)(0.830,12.655)(0.954,12.567)(1.080,12.481)%
+\relax
+\psline[liftpen=2]{c-c}(0.144,13.018)(0.229,13.122)\relax
+\pscurve[liftpen=2]{c-c}(2.144,14.829)(1.967,14.630)(1.792,14.429)(1.633,14.243)%
+\relax
+\pscurve[liftpen=2]{c-c}(1.633,14.243)(1.733,14.163)(1.835,14.083)(1.937,14.005)%
+(2.041,13.929)(2.093,13.892)\relax
+\pscurve[liftpen=2]{c-c}(2.093,13.892)(1.935,13.680)(1.779,13.468)(1.650,13.290)%
+\relax
+\pscurve[liftpen=2]{c-c}(6.378,0.042)(6.388,0.292)(6.398,0.542)(6.409,0.791)%
+(6.419,1.041)(6.430,1.291)(6.433,1.354)\relax
+\pscurve[liftpen=2]{c-c}(6.553,14.983)(6.502,14.737)(6.452,14.491)(6.403,14.245)%
+\relax
+\pscurve[liftpen=2]{c-c}(6.403,14.245)(6.502,14.228)(6.602,14.212)(6.703,14.198)%
+(6.778,14.189)\relax
+\pscurve[liftpen=2]{c-c}(6.778,14.189)(6.743,13.941)(6.709,13.692)(6.675,13.444)%
+(6.641,13.196)(6.608,12.948)(6.591,12.823)\relax
+\pscurve[liftpen=2]{c-c}(6.591,12.823)(6.712,12.810)(6.834,12.798)(6.955,12.787)%
+(7.077,12.778)(7.199,12.771)(7.321,12.765)(7.351,12.764)%
+\relax
+\pscurve[liftpen=2]{c-c}(7.351,12.764)(7.341,12.514)(7.331,12.264)\relax
+\pscurve[liftpen=2]{c-c}(3.545,0.197)(3.573,0.447)(3.597,0.656)\relax
+\pscurve[liftpen=2]{c-c}(3.597,0.656)(3.345,0.695)(3.092,0.737)(2.935,0.765)%
+\relax
+\pscurve[liftpen=2]{c-c}(14.979,12.618)(14.855,12.524)(14.729,12.432)(14.602,12.343)%
+(14.473,12.255)(14.344,12.169)(14.213,12.084)(14.081,12.002)%
+(13.981,11.941)\relax
+\psline[liftpen=2]{c-c}(13.981,11.941)(14.117,11.716)\relax
+\pscurve[liftpen=2]{c-c}(14.117,11.716)(13.979,11.636)(13.841,11.558)(13.702,11.481)%
+(13.561,11.407)(13.420,11.334)(13.277,11.263)(13.134,11.194)%
+(12.989,11.128)(12.844,11.063)(12.698,11.000)(12.551,10.939)%
+(12.403,10.880)(12.254,10.822)(12.105,10.767)(11.955,10.714)%
+(11.804,10.662)(11.652,10.613)(11.500,10.566)(11.424,10.542)%
+\relax
+\pscurve[liftpen=2]{c-c}(11.424,10.542)(11.499,10.300)(11.574,10.056)(11.647,9.813)%
+\relax
+\pscurve[liftpen=2]{c-c}(11.102,2.227)(11.128,1.977)(11.154,1.726)(11.179,1.475)%
+(11.203,1.225)(11.227,0.974)(11.250,0.723)(11.261,0.598)%
+\relax
+\pscurve[liftpen=2]{c-c}(11.261,0.598)(11.515,0.631)(11.768,0.666)(12.021,0.704)%
+(12.037,0.706)\relax
+\pscurve[liftpen=2]{c-c}(2.908,11.553)(2.769,11.615)(2.632,11.678)(2.563,11.710)%
+\relax
+\pscurve[liftpen=2]{c-c}(2.563,11.710)(2.678,11.941)(2.794,12.172)(2.824,12.229)%
+\relax
+\pscurve[liftpen=2]{c-c}(2.824,12.229)(2.694,12.293)(2.566,12.358)(2.470,12.408)%
+\relax
+\pscurve[liftpen=2]{c-c}(2.470,12.408)(2.597,12.634)(2.629,12.691)\relax
+\pscurve[liftpen=2]{c-c}(2.629,12.691)(2.507,12.757)(2.385,12.825)(2.265,12.895)%
+(2.145,12.967)(2.027,13.040)(1.909,13.115)(1.793,13.192)%
+(1.678,13.270)(1.650,13.290)\relax
+\pscurve[liftpen=2]{c-c}(1.650,13.290)(1.496,13.075)(1.343,12.860)(1.192,12.644)%
+(1.080,12.481)\relax
+\pscurve[liftpen=2]{c-c}(1.080,12.481)(0.931,12.263)(0.784,12.044)(0.638,11.824)%
+(0.494,11.603)(0.351,11.381)(0.209,11.158)(0.069,10.935)%
+\relax
+\psline[liftpen=2]{c-c}(10.902,3.978)(10.886,4.103)\relax
+\pscurve[liftpen=2]{c-c}(10.886,4.103)(11.111,4.136)(11.336,4.172)(11.560,4.210)%
+(11.784,4.251)(12.008,4.293)(12.231,4.338)(12.453,4.386)%
+(12.565,4.411)\relax
+\pscurve[liftpen=2]{c-c}(12.565,4.411)(12.516,4.660)(12.466,4.909)(12.415,5.157)%
+(12.363,5.406)\relax
+\pscurve[liftpen=2]{c-c}(12.363,5.406)(12.576,5.456)(12.788,5.509)(12.972,5.558)%
+\relax
+\pscurve[liftpen=2]{c-c}(12.972,5.558)(12.913,5.805)(12.852,6.053)(12.790,6.300)%
+(12.728,6.547)(12.664,6.794)(12.600,7.040)(12.534,7.286)%
+(12.468,7.532)(12.400,7.778)(12.332,8.023)(12.263,8.268)%
+(12.192,8.513)(12.121,8.758)(12.049,9.002)(11.976,9.246)%
+(11.902,9.490)(11.827,9.733)(11.789,9.855)\relax
+\psline[liftpen=2]{c-c}(11.789,9.855)(11.647,9.813)\relax
+\pscurve[liftpen=2]{c-c}(11.647,9.813)(11.485,9.766)(11.322,9.722)(11.158,9.680)%
+(10.994,9.639)(10.829,9.601)(10.664,9.565)(10.498,9.531)%
+(10.332,9.498)(10.166,9.468)(9.999,9.440)(9.832,9.414)%
+(9.664,9.390)(9.538,9.373)\relax
+\pscurve[liftpen=2]{c-c}(14.970,1.951)(14.726,1.883)(14.482,1.818)(14.238,1.755)%
+(13.992,1.695)(13.747,1.637)(13.501,1.581)\relax
+\pscurve[liftpen=2]{c-c}(13.501,1.581)(13.541,1.330)(13.581,1.078)(13.594,0.994)%
+\relax
+\pscurve[liftpen=2]{c-c}(13.594,0.994)(13.343,0.941)(13.092,0.891)(12.840,0.843)%
+(12.588,0.797)(12.336,0.754)(12.084,0.714)(12.037,0.706)%
+\relax
+\pscurve[liftpen=2]{c-c}(12.037,0.706)(12.065,0.455)(12.091,0.204)\relax
+\pscurve[liftpen=2]{c-c}(1.717,0.013)(1.754,0.264)(1.793,0.516)(1.833,0.767)%
+(1.874,1.017)(1.894,1.143)\relax
+\pscurve[liftpen=2]{c-c}(1.894,1.143)(2.144,1.089)(2.394,1.038)(2.644,0.989)%
+(2.707,0.977)\relax
+\psline[liftpen=2]{c-c}(2.707,0.977)(2.683,0.810)\relax
+\psline[liftpen=2]{c-c}(2.683,0.810)(2.935,0.765)\relax
+\pscurve[liftpen=2]{c-c}(2.935,0.765)(2.969,1.015)(3.003,1.265)(3.039,1.515)%
+(3.075,1.765)(3.112,2.015)(3.149,2.265)(3.187,2.514)%
+(3.213,2.680)\relax
+\pscurve[liftpen=2]{c-c}(1.543,7.470)(1.353,7.541)(1.187,7.605)\relax
+\psline[liftpen=2]{c-c}(1.187,7.605)(1.099,7.363)\relax
+\pscurve[liftpen=2]{c-c}(1.099,7.363)(0.907,7.439)(0.717,7.517)(0.527,7.598)%
+(0.339,7.680)(0.151,7.765)\relax
+\pscurve[liftpen=2]{c-c}(10.619,2.167)(10.861,2.196)(11.102,2.227)\relax
+\pscurve[liftpen=2]{c-c}(11.102,2.227)(11.075,2.477)(11.048,2.728)(11.032,2.874)%
+\relax
+\pscurve[liftpen=2]{c-c}(6.098,2.564)(6.084,2.314)(6.069,2.065)(6.055,1.815)%
+(6.040,1.565)(6.030,1.377)\relax
+\pscurve[liftpen=2]{c-c}(6.030,1.377)(6.278,1.362)(6.433,1.354)\relax
+\pscurve[liftpen=2]{c-c}(6.433,1.354)(6.681,1.342)(6.929,1.333)(7.177,1.326)%
+(7.425,1.322)(7.580,1.320)\relax
+\psline[liftpen=2]{c-c}(7.580,1.320)(7.581,1.424)\relax
+\pscurve[liftpen=2]{c-c}(7.581,1.424)(7.829,1.423)(8.076,1.425)(8.324,1.429)%
+(8.571,1.435)(8.818,1.444)(9.066,1.455)(9.313,1.468)%
+(9.560,1.484)(9.807,1.502)(10.054,1.522)(10.301,1.545)%
+(10.547,1.570)(10.670,1.583)\relax
+\pscurve[liftpen=2]{c-c}(10.670,1.583)(10.649,1.833)(10.627,2.084)(10.619,2.167)%
+\relax
+\pscurve[liftpen=2]{c-c}(9.671,2.727)(9.908,2.747)(10.145,2.769)(10.382,2.794)%
+(10.618,2.821)(10.855,2.850)(11.032,2.874)\relax
+\pscurve[liftpen=2]{c-c}(11.032,2.874)(11.003,3.124)(10.974,3.374)(10.945,3.624)%
+(10.914,3.874)(10.902,3.978)\relax
+\pscurve[liftpen=2]{c-c}(10.902,3.978)(10.675,3.947)(10.448,3.918)(10.222,3.892)%
+(9.994,3.868)(9.767,3.847)(9.568,3.830)\relax
+\pscurve[liftpen=2]{c-c}(9.568,3.830)(9.550,4.080)(9.532,4.330)\relax
+\pscurve[liftpen=2]{c-c}(2.376,5.072)(2.318,4.825)(2.262,4.577)(2.206,4.329)%
+(2.150,4.081)(2.123,3.957)\relax
+\pscurve[liftpen=2]{c-c}(2.123,3.957)(2.350,3.901)(2.577,3.847)(2.691,3.821)%
+\relax
+\pscurve[liftpen=2]{c-c}(2.691,3.821)(2.642,3.572)(2.595,3.323)(2.549,3.074)%
+(2.503,2.825)\relax
+\pscurve[liftpen=2]{c-c}(2.503,2.825)(2.739,2.774)(2.976,2.726)(3.213,2.680)%
+\relax
+\pscurve[liftpen=2]{c-c}(3.213,2.680)(3.451,2.637)(3.689,2.596)(3.927,2.557)%
+(4.166,2.521)(4.405,2.487)(4.644,2.455)(4.883,2.426)%
+(4.943,2.419)\relax
+\psline[liftpen=2]{c-c}(4.943,2.419)(4.968,2.668)\relax
+\pscurve[liftpen=2]{c-c}(4.968,2.668)(5.205,2.642)(5.443,2.618)(5.681,2.596)%
+(5.920,2.577)(6.098,2.564)\relax
+\psline[liftpen=2]{c-c}(6.098,2.564)(6.110,2.751)\relax
+\pscurve[liftpen=2]{c-c}(6.110,2.751)(6.347,2.736)(6.584,2.723)(6.821,2.713)%
+(7.058,2.705)(7.296,2.699)(7.533,2.695)(7.592,2.695)%
+\relax
+\pscurve[liftpen=2]{c-c}(7.592,2.695)(7.590,2.445)(7.588,2.195)(7.588,2.174)%
+\relax
+\pscurve[liftpen=2]{c-c}(7.588,2.174)(7.830,2.173)(8.071,2.175)(8.313,2.179)%
+(8.554,2.185)(8.796,2.194)(9.038,2.205)(9.279,2.219)%
+(9.520,2.234)(9.701,2.248)\relax
+\pscurve[liftpen=2]{c-c}(9.701,2.248)(9.686,2.498)(9.671,2.727)\relax
+\psset{linecolor=hlboundarycolor,linewidth=0.035cm,linestyle=dashed}%
+\pscustom{\pscurve[liftpen=2]{c-c}(7.331,12.264)(7.202,12.270)(7.073,12.277)(6.944,12.286)%
+(6.815,12.297)(6.686,12.309)(6.558,12.323)(6.430,12.339)%
+(6.302,12.356)(6.295,12.357)\relax
+\pscurve[liftpen=2]{c-c}(6.295,12.357)(6.334,12.604)(6.351,12.708)\relax
+\psline[liftpen=2]{c-c}(6.351,12.708)(6.234,12.725)\relax
+\pscurve[liftpen=2]{c-c}(6.234,12.725)(6.192,12.478)(6.149,12.230)(6.108,11.983)%
+(6.066,11.735)(6.026,11.488)(5.985,11.240)(5.982,11.220)%
+\relax
+\pscurve[liftpen=2]{c-c}(5.982,11.220)(5.838,11.242)(5.695,11.267)(5.552,11.293)%
+(5.409,11.321)(5.267,11.350)(5.125,11.382)(4.984,11.415)%
+(4.843,11.450)(4.703,11.487)(4.563,11.526)(4.424,11.566)%
+(4.285,11.609)(4.147,11.653)(4.009,11.698)(3.872,11.746)%
+(3.736,11.795)(3.601,11.847)(3.466,11.900)(3.332,11.954)%
+(3.199,12.011)(3.132,12.040)\relax
+\pscurve[liftpen=2]{c-c}(3.132,12.040)(3.024,11.806)(2.917,11.573)(2.908,11.553)%
+\relax
+\pscurve[liftpen=2]{c-c}(7.331,12.264)(7.460,12.260)(7.589,12.258)(7.718,12.257)%
+(7.783,12.257)\relax
+\pscurve[liftpen=2]{c-c}(7.783,12.257)(7.785,12.007)(7.787,11.882)\relax
+\pscurve[liftpen=2]{c-c}(7.787,11.882)(7.921,11.884)(8.056,11.888)(8.190,11.893)%
+(8.325,11.900)(8.459,11.909)(8.492,11.911)\relax
+\pscurve[liftpen=2]{c-c}(8.492,11.911)(8.513,11.662)(8.533,11.412)(8.544,11.287)%
+\relax
+\pscurve[liftpen=2]{c-c}(8.544,11.287)(8.686,11.298)(8.829,11.312)(8.971,11.326)%
+(9.113,11.343)(9.255,11.361)\relax
+\pscurve[liftpen=2]{c-c}(9.255,11.361)(9.292,11.113)(9.329,10.865)(9.365,10.616)%
+(9.400,10.368)(9.436,10.119)(9.470,9.871)(9.505,9.622)%
+(9.538,9.373)\relax
+\pscurve[liftpen=2]{c-c}(1.543,7.470)(1.627,7.712)(1.713,7.954)(1.800,8.195)%
+(1.887,8.436)(1.976,8.677)(2.066,8.917)(2.157,9.156)%
+(2.226,9.336)\relax
+\psline[liftpen=2]{c-c}(2.226,9.336)(2.142,9.369)\relax
+\psline[liftpen=2]{c-c}(2.142,9.369)(2.165,9.429)\relax
+\psline[liftpen=2]{c-c}(2.165,9.429)(2.019,9.487)\relax
+\pscurve[liftpen=2]{c-c}(2.019,9.487)(2.117,9.725)(2.215,9.963)(2.315,10.200)%
+(2.415,10.436)(2.517,10.672)(2.620,10.908)(2.724,11.143)%
+(2.829,11.378)(2.908,11.553)\relax
+\pscurve[liftpen=2]{c-c}(9.538,9.373)(9.370,9.352)(9.328,9.348)\relax
+\pscurve[liftpen=2]{c-c}(9.328,9.348)(9.358,9.099)(9.387,8.849)(9.415,8.600)%
+(9.443,8.351)\relax
+\pscurve[liftpen=2]{c-c}(9.443,8.351)(9.263,8.332)(9.082,8.315)(8.902,8.301)%
+(8.811,8.294)\relax
+\pscurve[liftpen=2]{c-c}(8.811,8.294)(8.829,8.044)(8.846,7.795)(8.863,7.545)%
+(8.880,7.295)(8.896,7.045)(8.912,6.795)(8.928,6.545)%
+\relax
+\psline[liftpen=2]{c-c}(8.928,6.545)(9.053,6.554)\relax
+\pscurve[liftpen=2]{c-c}(9.053,6.554)(9.071,6.304)(9.088,6.054)(9.104,5.804)%
+(9.121,5.555)(9.137,5.305)(9.152,5.055)(9.160,4.930)%
+\relax
+\pscurve[liftpen=2]{c-c}(9.160,4.930)(9.377,4.946)(9.486,4.955)\relax
+\pscurve[liftpen=2]{c-c}(9.486,4.955)(9.505,4.705)(9.523,4.455)(9.532,4.330)%
+\relax
+\pscurve[liftpen=2]{c-c}(2.376,5.072)(2.161,5.130)(1.946,5.190)(1.731,5.253)%
+(1.518,5.318)(1.358,5.368)\relax
+\pscurve[liftpen=2]{c-c}(1.358,5.368)(1.428,5.614)(1.500,5.859)(1.572,6.105)%
+(1.645,6.350)(1.720,6.594)(1.795,6.839)(1.872,7.082)%
+(1.950,7.326)\relax
+\pscurve[liftpen=2]{c-c}(1.950,7.326)(1.758,7.392)(1.567,7.461)(1.543,7.470)%
+\relax
+\pscurve[liftpen=2]{c-c}(9.532,4.330)(9.309,4.312)(9.086,4.298)(8.863,4.285)%
+(8.639,4.275)(8.416,4.267)(8.192,4.261)(8.164,4.261)%
+\relax
+\pscurve[liftpen=2]{c-c}(8.164,4.261)(8.160,4.511)(8.158,4.636)\relax
+\pscurve[liftpen=2]{c-c}(8.158,4.636)(7.938,4.633)(7.718,4.632)(7.498,4.633)%
+(7.278,4.637)(7.058,4.643)(6.838,4.652)(6.618,4.663)%
+(6.398,4.676)(6.178,4.691)(5.959,4.709)(5.740,4.728)%
+(5.521,4.751)(5.302,4.775)(5.083,4.802)(4.865,4.831)%
+(4.647,4.863)(4.429,4.896)(4.212,4.933)(4.049,4.961)%
+\relax
+\psline[liftpen=2]{c-c}(4.049,4.961)(4.009,4.713)\relax
+\pscurve[liftpen=2]{c-c}(4.009,4.713)(3.790,4.753)(3.571,4.796)(3.353,4.841)%
+(3.135,4.888)(2.917,4.937)(2.700,4.989)(2.484,5.044)%
+(2.376,5.072)\relax
+}%
+\psset{linecolor=nebulacolor,linewidth=0.018cm,linestyle=solid,curvature=1 .5 -1}%
+\pscircle(14.521,9.779){2.845pt}%
+\pscircle(10.818,5.843){2.845pt}%
+\pscircle(9.692,4.964){2.845pt}%
+\pscircle(7.696,1.995){2.845pt}%
+\pscircle(7.347,2.981){2.845pt}%
+\pscircle(6.182,6.975){2.845pt}%
+\pscircle(4.876,5.150){2.845pt}%
+\pscircle(4.341,5.482){2.845pt}%
+\pscircle(4.285,5.363){2.845pt}%
+\pscircle(4.758,8.678){0.228}%
+\relax
+\pscircle(5.955,14.512){2.845pt}%
+\pscircle(1.612,0.977){2.845pt}%
+\pscircle(3.606,9.967){2.845pt}%
+\pscircle(1.739,14.798){2.845pt}%
+\pscircle(4.090,12.237){0.188}%
+\relax
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.655,5.477){1.760pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.946,5.645){1.530pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.689,4.915){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.300,4.898){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.325,5.796){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.522,4.002){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.815,4.059){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.342,4.357){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.742,0.961){2.063pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.962,4.340){2.106pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.394,2.173){1.721pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.549,0.572){1.503pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.084,1.940){1.420pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.464,5.362){1.411pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.973,3.385){1.401pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.073,1.309){1.216pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.745,2.812){1.009pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.887,3.371){0.748pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.748,2.207){0.748pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.531,1.824){0.730pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.478,1.688){0.730pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.127,3.525){0.587pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.705,3.321){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.139,3.246){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.589,0.363){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.630,2.502){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.916,2.770){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.482,4.332){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.159,3.481){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.848,2.955){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.257,3.686){0.831pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.295,4.783){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.985,2.090){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.848,2.280){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.961,3.765){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.705,0.250){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.924,3.177){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.740,5.186){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.542,0.361){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.394,2.323){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.433,3.951){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.144,0.952){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.215,2.413){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.733,4.097){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.090,4.115){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.422,0.272){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.253,3.481){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.004,0.311){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.549,0.156){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.560,1.459){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.713,4.701){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.095,1.895){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.711,0.053){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.985,3.784){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.793,3.170){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.324,2.965){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.256,3.756){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.643,3.380){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.874,0.496){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.453,1.497){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.277,4.641){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.230,1.005){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.097,1.198){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.785,3.550){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.208,3.690){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.982,4.564){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.345,2.394){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.038,1.057){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.685,5.432){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.974,2.736){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.717,1.444){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.373,3.076){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.203,2.100){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.646,4.099){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.030,0.259){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.437,0.624){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.758,2.077){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.403,3.548){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.457,2.345){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.112,3.550){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.333,2.341){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.421,5.356){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.364,3.726){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.621,4.699){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.946,4.002){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.597,2.474){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.484,0.962){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.156,1.026){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.533,3.828){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.125,2.833){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.025,3.652){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.789,0.148){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.481,2.556){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.754,5.399){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.011,2.480){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.502,0.772){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.873,0.284){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.515,1.690){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.041,2.265){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.751,2.431){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.567,3.565){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.816,0.209){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.576,1.102){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.025,3.631){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.481,3.525){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.780,4.404){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.750,2.341){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.093,4.806){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.311,3.601){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.117,3.999){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.465,2.030){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.254,2.125){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.389,2.901){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.782,1.970){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.507,1.613){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.286,0.637){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.669,2.071){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.608,4.766){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.234,4.096){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.418,1.820){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.830,3.243){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.691,1.466){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.393,2.441){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.283,4.969){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.685,3.582){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.347,0.934){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.724,2.978){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.155,2.426){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.442,0.364){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.932,4.216){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.425,2.931){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.059,4.135){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.249,1.740){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.154,1.654){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.893,4.414){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.800,0.929){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.585,1.466){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.867,2.358){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.488,2.447){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.739,3.090){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.758,0.517){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.587,0.622){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.588,4.662){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.615,2.521){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.471,1.685){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.500,2.550){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.278,4.647){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.488,2.439){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.993,2.498){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.445,3.184){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.276,3.163){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.612,3.054){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.694,3.172){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.657,2.826){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.312,4.399){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.565,4.509){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.794,4.286){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.741,0.365){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.054,5.360){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.415,2.921){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.798,2.310){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.368,3.898){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.093,3.591){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.208,2.072){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.355,1.448){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.212,3.845){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.449,3.249){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.615,1.114){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.838,0.119){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.807,2.736){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.669,3.781){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.232,1.657){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.218,0.078){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.169,4.627){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.621,0.610){2.424pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.963,1.069){1.591pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.859,1.412){1.467pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.181,0.221){1.204pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.414,2.786){1.147pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.434,4.562){1.087pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.430,1.512){1.374pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.965,2.494){0.784pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.604,1.227){0.609pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.513,0.240){0.457pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.454,4.279){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.142,3.845){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.413,4.295){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.271,4.240){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.104,1.076){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.781,0.225){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.657,5.320){0.551pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.459,3.722){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.037,2.727){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.767,3.785){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.423,1.121){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.310,4.555){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.101,3.455){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.925,3.211){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.991,4.770){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.010,2.303){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.424,3.202){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.814,0.983){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.548,4.495){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.212,3.536){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.190,3.916){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.626,2.571){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.908,3.157){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.362,3.496){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.313,1.680){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.162,0.657){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.477,4.801){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.889,0.266){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.468,2.881){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.561,0.285){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.666,4.018){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.737,4.039){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.218,5.469){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.056,3.457){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.656,3.783){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.783,0.694){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.237,4.032){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.681,2.429){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.800,2.713){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.097,1.311){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.573,4.404){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.560,3.226){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.139,4.777){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.511,3.924){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.865,0.756){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.689,3.230){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.486,4.578){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.063,1.571){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.073,1.788){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.444,3.136){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.227,3.502){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.088,3.347){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.652,3.936){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.122,3.469){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.832,1.848){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.049,0.726){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.118,1.928){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.274,0.592){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.891,1.390){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.162,0.639){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.731,1.090){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.768,0.206){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.138,2.735){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.536,0.986){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.012,2.885){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.362,0.105){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.126,4.888){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.766,0.824){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.875,4.126){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.614,4.382){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.038,0.982){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.356,2.727){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.554,4.184){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.751,4.434){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.321,5.205){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.880,0.987){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.473,2.536){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.078,0.641){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.804,2.497){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.749,1.829){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.372,4.617){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.698,1.692){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.664,2.598){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.012,1.990){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.652,2.784){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.779,1.727){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.333,4.570){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.621,3.317){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.850,3.352){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.381,1.303){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.096,5.053){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.501,3.993){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.443,4.940){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.975,1.180){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.131,1.581){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.512,3.840){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.886,0.402){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.549,1.996){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.525,3.250){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.498,3.666){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.278,3.882){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.757,2.328){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.815,1.475){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.756,0.246){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.919,2.402){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.035,3.107){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.876,2.425){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.833,3.691){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.290,2.648){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.729,2.541){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.236,2.025){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.561,2.399){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.336,4.669){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.537,3.380){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.640,1.797){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.200,3.312){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.987,3.820){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.734,3.603){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.191,4.882){1.476pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.545,5.745){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.389,5.174){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.097,5.815){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.137,4.955){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.369,7.436){3.499pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.098,11.039){2.512pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.931,11.642){2.190pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.652,12.349){1.485pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.305,10.017){1.439pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.398,7.627){1.382pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.448,14.811){1.227pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.356,6.977){0.801pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.838,5.864){0.652pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.910,8.227){1.072pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.371,11.949){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.691,13.490){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.523,12.270){1.096pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.061,5.945){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.513,12.455){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.384,8.957){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.442,10.983){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.370,5.814){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.361,10.144){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.580,12.877){0.731pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.923,7.765){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.299,8.344){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.017,13.484){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.655,10.796){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.137,10.673){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.872,14.685){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.670,6.126){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.905,7.231){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.019,5.449){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.691,8.940){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.806,7.217){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.024,10.433){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.128,8.526){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.082,12.050){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.528,9.560){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.316,6.243){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.526,13.624){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.065,9.008){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.298,11.769){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.461,12.592){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.543,10.776){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.932,6.450){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.965,8.738){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.342,11.520){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.608,11.348){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.507,6.570){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.361,7.352){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.867,11.286){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.444,10.701){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.670,9.572){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.908,6.423){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.312,13.191){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.703,6.457){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.356,8.359){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.493,7.736){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.901,11.410){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.264,7.641){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.267,11.340){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.347,8.016){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.687,12.113){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.689,6.387){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.151,8.208){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.450,6.577){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.933,13.309){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.190,12.795){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.253,14.938){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.122,8.531){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.135,10.224){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.390,6.419){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.127,7.938){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.659,6.463){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.896,8.165){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.584,12.033){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.781,10.738){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.903,9.269){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.251,10.701){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.872,10.468){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.956,11.130){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.408,14.523){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.356,9.498){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.614,8.626){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.985,7.580){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.335,8.320){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.998,12.022){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.624,6.853){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.743,9.957){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.265,5.757){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.234,12.910){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.331,10.295){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.677,7.709){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.916,10.200){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.416,8.495){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.335,12.599){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.780,10.878){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.839,10.266){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.871,11.726){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.386,8.395){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.574,9.571){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.742,8.561){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.801,14.108){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.269,13.158){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.734,8.203){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.777,8.179){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.812,7.362){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](14.395,11.804){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.736,10.755){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.972,5.526){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.520,9.396){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.690,8.307){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.648,10.404){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.006,12.632){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.550,8.748){2.992pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.298,7.407){2.528pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.950,5.964){2.385pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.031,8.592){2.140pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.402,5.272){1.921pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.552,5.712){1.893pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.985,5.959){1.737pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.461,8.585){1.512pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.700,7.229){1.512pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.996,10.735){1.467pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.787,9.003){1.448pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.562,10.277){1.448pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.536,6.071){1.352pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.683,7.835){1.301pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.722,9.250){1.259pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.745,4.968){1.227pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.261,8.536){1.193pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.879,5.150){0.968pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.839,5.531){0.954pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.649,7.591){0.954pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.928,11.457){0.850pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.611,6.796){0.850pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.494,6.947){0.748pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.054,7.062){1.136pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.591,7.214){0.692pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.075,5.399){0.609pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.378,6.486){0.609pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.325,9.881){0.486pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.864,11.821){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.973,6.600){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.585,9.517){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.616,6.208){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.613,12.372){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.458,4.861){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.802,5.958){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.858,9.429){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.998,8.603){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.477,6.838){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.802,9.021){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.256,9.001){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.132,6.650){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.552,10.410){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.020,10.223){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.914,6.071){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.878,6.521){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.516,5.568){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.556,6.922){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.141,9.606){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.535,12.012){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.622,6.523){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.051,5.740){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.955,11.826){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.868,8.722){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.864,9.230){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.742,10.549){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.133,11.495){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.124,8.499){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.324,9.827){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.971,7.577){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.208,8.698){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.814,6.983){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.063,11.627){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.626,11.682){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.972,7.563){0.438pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.053,6.446){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.390,6.079){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.405,8.501){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.354,6.561){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.113,7.322){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.644,5.781){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.115,5.601){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.552,7.418){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.030,5.759){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.005,6.498){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.529,7.936){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.026,6.299){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.735,9.103){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.447,10.807){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.754,10.129){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.694,10.009){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.305,8.025){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.097,9.678){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.388,7.959){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.489,7.392){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.029,8.801){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.536,5.889){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.495,11.392){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.412,5.046){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.496,12.362){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.962,10.794){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.170,5.515){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.529,9.917){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.778,8.663){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.269,5.430){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.371,9.420){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.646,6.821){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.406,8.789){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.428,6.582){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.630,5.221){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.057,10.145){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.714,9.058){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.005,6.974){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.097,5.359){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.143,12.583){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.814,12.313){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.522,11.949){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.542,5.756){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.409,7.864){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.020,9.373){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.226,5.010){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.803,7.453){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.275,9.701){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.372,5.664){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.783,11.002){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.391,10.140){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.636,10.432){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.610,6.549){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.177,10.096){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.732,11.175){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.051,9.755){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.967,6.908){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.918,9.060){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.852,11.546){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.151,10.196){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.356,10.546){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.163,11.062){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.786,5.443){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.251,11.700){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.491,7.327){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.501,7.513){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.000,8.219){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.117,7.755){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.747,5.056){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.152,10.596){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.142,10.836){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.875,6.487){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.382,7.106){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.078,9.817){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.174,6.719){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.004,10.881){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.705,9.284){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.025,5.825){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.356,11.376){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.743,11.784){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.668,8.718){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.398,8.743){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.287,7.601){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.255,5.421){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.551,8.287){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.875,8.762){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.453,9.649){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.106,9.945){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.267,6.595){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.922,5.267){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.682,11.608){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.210,9.152){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.892,10.180){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.409,5.973){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.163,6.815){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.713,6.065){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.513,6.363){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.181,5.853){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.248,4.983){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.691,6.866){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.559,6.567){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.165,5.580){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.485,7.567){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.297,5.764){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.609,12.228){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.807,6.759){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.301,5.178){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.793,7.997){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.293,7.264){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.555,11.863){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.769,6.733){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.071,6.062){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.126,5.163){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.738,6.410){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.396,5.816){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.868,6.981){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.034,10.349){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.207,11.079){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.948,5.914){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.319,9.785){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.524,11.472){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.901,9.283){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.567,11.168){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.741,8.163){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.296,11.561){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.185,10.264){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.674,8.013){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.413,10.314){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.655,8.038){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.245,8.087){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.188,9.361){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.664,7.548){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.048,5.530){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.181,10.447){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.622,10.731){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.803,6.614){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.840,8.400){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.100,6.924){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.615,8.776){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.315,8.090){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.523,6.994){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.288,6.576){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.258,8.809){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.741,9.146){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.207,11.389){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.247,7.699){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.638,11.888){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.962,11.814){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.382,6.761){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.093,11.318){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.378,7.188){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.462,11.714){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.217,7.379){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.822,6.405){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.871,10.974){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.573,7.049){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.174,9.924){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.555,10.555){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.959,11.570){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.525,7.929){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.560,8.008){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.667,9.253){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.503,10.437){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.790,10.206){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.370,9.090){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.748,9.880){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.058,9.783){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.603,10.543){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.362,6.190){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.354,6.729){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.916,11.695){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.423,6.827){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.336,5.311){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.663,9.298){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.637,10.691){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.236,9.144){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.395,8.007){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.077,7.489){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.948,6.845){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.478,11.507){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.153,6.488){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.624,5.438){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.416,11.270){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.251,5.685){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.858,10.156){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.322,7.625){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.943,5.946){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.370,5.921){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.303,8.858){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.327,9.866){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.286,7.333){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.066,8.852){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.500,5.611){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.876,12.293){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.585,9.945){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.073,6.332){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.457,7.865){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.510,10.026){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.701,11.810){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.855,8.284){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.926,5.664){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.613,5.728){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.597,12.241){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.642,6.472){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.235,7.298){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.557,8.911){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.040,7.497){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.426,9.563){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.234,9.681){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.476,12.045){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.279,9.643){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.326,6.382){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.144,6.348){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.019,11.399){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.035,11.178){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.650,9.041){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.529,6.590){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.335,5.298){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.869,7.826){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.788,7.834){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.482,6.924){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.519,9.043){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.370,7.203){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.470,10.732){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.846,9.937){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.505,9.192){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.345,9.887){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.922,6.133){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.791,6.758){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.091,9.864){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.603,4.849){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.311,9.888){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.139,5.914){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.364,6.619){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.652,8.832){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.547,11.859){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.868,8.183){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.482,5.749){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.640,7.028){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.176,10.280){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.325,9.019){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.077,5.531){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.175,7.688){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.907,8.115){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.193,6.308){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.433,9.372){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.595,5.165){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.794,7.698){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.695,7.846){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.964,6.112){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.865,9.248){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.176,12.800){1.813pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.663,13.124){1.485pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.555,11.318){1.467pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.314,9.305){1.216pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.068,12.591){1.147pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.802,8.078){1.087pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.912,12.595){1.009pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.097,10.370){0.954pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.669,6.858){0.865pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.307,10.691){0.748pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.060,11.626){0.609pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.471,10.121){0.539pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.086,8.509){0.457pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.737,9.643){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.024,12.003){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.289,14.668){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.701,11.007){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.497,10.259){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.505,11.720){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.398,11.948){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.437,10.761){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.795,14.000){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.682,14.708){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.778,7.592){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.062,14.303){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.611,11.705){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.573,13.351){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.808,8.081){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.454,5.765){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.299,13.088){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.027,9.631){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.875,8.822){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.936,9.635){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.168,12.921){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.571,9.480){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.988,12.500){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.041,7.147){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.839,10.010){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.658,7.258){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.336,11.092){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.712,12.927){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.440,11.486){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.585,8.348){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.449,14.480){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.664,9.871){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.211,9.278){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.499,12.914){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.419,12.634){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.248,13.666){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.706,6.842){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.028,9.497){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.754,9.475){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.094,12.233){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.354,7.652){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.099,5.915){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.069,10.092){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.611,8.318){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.702,14.043){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.166,11.865){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.371,9.298){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.293,12.797){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.511,11.985){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.116,8.937){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.685,10.357){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.284,10.307){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.884,11.432){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.709,5.950){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.499,12.214){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.023,10.523){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.890,12.657){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.280,8.897){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.713,12.294){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.097,9.512){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.089,7.016){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.244,14.681){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.012,11.049){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.138,10.996){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.080,5.961){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.887,5.407){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.222,6.953){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.137,12.699){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.282,10.385){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.646,12.658){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.627,8.241){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.901,9.853){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.723,12.615){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.255,11.628){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.527,12.582){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.657,12.346){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.146,7.818){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.137,10.034){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.736,11.615){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.500,8.800){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.763,10.791){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.840,11.392){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.699,12.772){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.946,10.979){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.097,8.074){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.669,8.141){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.987,9.453){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.952,9.694){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.804,11.627){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.559,13.414){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.100,9.132){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.955,11.781){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.526,8.433){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.535,14.321){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.361,9.360){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.263,10.396){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.366,11.357){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.947,12.406){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.247,13.019){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.158,12.304){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.360,12.897){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.402,6.235){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.695,14.816){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.902,14.998){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.995,12.191){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.158,5.526){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.159,13.446){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.152,12.711){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.916,6.699){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.108,12.305){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.737,10.840){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.832,14.075){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.536,7.865){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.066,7.094){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.669,10.284){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.484,11.083){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.981,9.224){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.332,10.804){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.645,10.363){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.014,11.287){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.050,13.943){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.741,13.759){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.954,9.655){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.827,11.778){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.282,8.223){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.126,6.640){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.004,7.308){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.226,7.161){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.291,8.443){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.232,13.039){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](0.188,14.108){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.594,8.856){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.387,12.083){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.470,12.643){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.250,7.169){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.950,10.107){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.465,12.518){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.351,7.464){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.392,14.883){2.221pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.691,14.961){1.942pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](11.605,13.751){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.037,14.298){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.095,13.476){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.362,14.923){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](13.328,14.578){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.010,14.824){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.655,14.005){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.825,14.940){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](12.257,13.757){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.127,13.267){2.396pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.591,14.297){2.010pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.050,12.874){1.752pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.695,14.870){1.411pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.554,13.099){0.968pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.235,13.166){0.865pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.123,14.185){0.865pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.358,14.270){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.461,13.787){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.058,14.739){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.540,13.316){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.885,14.058){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.190,13.874){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.863,14.930){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.301,13.886){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.813,13.663){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.281,13.825){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.136,14.409){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.876,13.778){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.377,13.506){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.944,13.841){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.445,13.403){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.243,12.802){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.229,14.353){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.629,14.585){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.136,13.086){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.597,12.862){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.959,14.541){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.527,14.460){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.322,14.056){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.542,14.205){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.121,13.779){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.819,13.322){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.827,12.889){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.816,13.236){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.535,13.950){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.064,12.830){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.746,13.984){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.986,12.474){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.406,14.255){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.792,14.641){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.028,13.685){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.979,14.031){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.842,14.900){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.382,13.476){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.458,13.184){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.722,12.826){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.146,12.521){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.252,13.894){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.361,13.929){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.798,14.426){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.631,13.962){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.705,13.265){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.932,12.841){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.693,13.973){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.998,13.375){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.077,12.556){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.140,13.244){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.735,13.893){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.475,14.887){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.281,13.275){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.308,14.309){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.455,14.372){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.255,12.369){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.463,14.892){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.745,14.414){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.549,14.315){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.400,12.984){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.395,13.671){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.944,14.835){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.432,14.825){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](4.460,14.465){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.258,13.072){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](6.038,13.437){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.908,14.780){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](10.759,12.970){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.026,12.441){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.815,14.814){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](8.532,13.461){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](1.992,14.707){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](5.434,13.372){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](7.353,13.460){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](9.762,13.986){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](3.957,13.657){0.427pt}%
+\newrgbcolor{starcolor}{0.000 0.000 0.000}%
+\pscircle*[linecolor=starcolor](2.044,14.153){0.427pt}%
+\psset{linecolor=clinecolor,linestyle=solid,linewidth=0.035cm}%
+\psline{cc-cc}(11.689,12.243)(12.050,11.179)%
+\psline{cc-cc}(12.218,11.126)(12.820,11.562)%
+\psline{cc-cc}(12.856,11.757)(12.577,12.188)%
+\psline{cc-cc}(12.425,12.279)(11.764,12.339)%
+\psline{cc-cc}(11.558,12.409)(8.701,14.227)%
+\psline{cc-cc}(8.481,14.368)(7.787,14.811)%
+\psline{cc-cc}(7.790,14.924)(9.282,15.764)%
+\psline{cc-cc}(9.391,15.774)(11.570,15.004)%
+\psline{cc-cc}(11.819,14.956)(13.254,14.890)%
+\psline{cc-cc}(13.530,14.874)(14.346,14.818)%
+\psline{cc-cc}(14.505,14.897)(15.076,15.767)%
+\psline{cc-cc}(-1.151,0.156)(0.480,0.574)%
+\psline{cc-cc}(2.294,-0.883)(2.498,0.165)%
+\psline{cc-cc}(2.589,0.236)(2.706,0.229)%
+\psline{cc-cc}(5.156,0.321)(4.992,0.957)%
+\psline{cc-cc}(4.929,1.180)(4.891,1.305)%
+\psline{cc-cc}(4.750,1.437)(4.536,1.488)%
+\psline{cc-cc}(4.487,1.420)(4.562,1.297)%
+\psline{cc-cc}(4.679,1.194)(4.857,1.116)%
+\psline{cc-cc}(13.499,7.667)(14.819,8.191)%
+\psline{cc-cc}(15.005,8.252)(15.277,8.324)%
+\psline{cc-cc}(16.503,5.456)(14.777,5.476)%
+\psline{cc-cc}(14.537,5.505)(14.057,5.619)%
+\psline{cc-cc}(13.848,5.587)(13.559,5.417)%
+\psline{cc-cc}(5.938,12.922)(5.260,13.210)%
+\psline{cc-cc}(4.987,13.233)(3.296,12.829)%
+\psline{cc-cc}(3.071,12.867)(2.758,13.064)%
+\psline{cc-cc}(2.697,13.231)(3.273,15.071)%
+\psline{cc-cc}(5.531,15.194)(5.157,13.408)%
+\psline{cc-cc}(3.518,5.324)(4.819,5.905)%
+\psline{cc-cc}(5.049,6.069)(6.196,7.298)%
+\psline{cc-cc}(6.420,7.491)(7.919,8.516)%
+\psline{cc-cc}(8.071,8.721)(8.528,10.171)%
+\psline{cc-cc}(8.638,10.357)(8.919,10.654)%
+\psline{cc-cc}(5.630,8.603)(6.225,7.537)%
+\psline{cc-cc}(6.399,7.298)(7.463,6.150)%
+\psline{cc-cc}(7.604,5.988)(8.877,4.443)%
+\psline{cc-cc}(9.862,2.822)(9.186,3.469)%
+\psline{cc-cc}(9.048,3.513)(7.779,3.331)%
+\psline{cc-cc}(7.673,3.389)(7.303,4.172)%
+\psline{cc-cc}(7.196,4.243)(6.529,4.275)%
+\psline{cc-cc}(7.958,-0.453)(10.624,0.901)%
+\psline{cc-cc}(10.693,0.838)(9.636,-1.795)%
+\psline{cc-cc}(1.991,11.583)(1.650,11.376)%
+\psline{cc-cc}(1.602,11.217)(1.669,11.075)%
+\psline{cc-cc}(1.642,10.960)(1.374,10.745)%
+\psline{cc-cc}(1.341,10.612)(1.467,10.327)%
+\psline{cc-cc}(11.251,7.296)(11.119,7.139)%
+\psline{cc-cc}(10.969,7.011)(10.688,6.842)%
+\psline{cc-cc}(10.606,6.707)(10.559,5.839)%
+\psline{cc-cc}(10.662,5.775)(10.879,5.899)%
+\psline{cc-cc}(10.992,6.079)(11.048,6.963)%
+\psline{cc-cc}(8.448,1.846)(8.191,1.913)%
+\psline{cc-cc}(7.980,1.975)(7.508,2.135)%
+\psline{cc-cc}(8.406,1.734)(8.177,1.881)%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip13.666cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{92}}}\vskip9.892cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip10.931cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{57}}}\vskip5.471cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip9.805cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{56}}}\vskip4.591cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip6.841cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{71}}}\vskip1.628cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip6.976cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{27}}}\vskip2.567cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip5.811cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{29}}}\vskip6.555cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip4.990cm\vbox to 0pt{\vss
+  \hbox{\Label{\NGC{6960}}}\vskip5.263cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip2.607cm\vbox to 0pt{\vss
+  \hbox{\Label{\NGC{6992}}}\vskip5.595cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip2.551cm\vbox to 0pt{\vss
+  \hbox{\Label{\NGC{6995}}}\vskip4.985cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip2.933cm\vbox to 0pt{\vss
+  \hbox{\Label{\NGC{7000}}}\vskip8.882cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip6.115cm\vbox to 0pt{\vss
+  \hbox{\Label{\NGC{7023}}}\vskip14.380cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip1.772cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{15}}}\vskip0.847cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip2.704cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{39}}}\vskip9.838cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip0.837cm\vbox to 0pt{\vss
+  \hbox{\Label{\Messier{52}}}\vskip14.668cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip4.265cm\vbox to 0pt{\vss
+  \hbox{\Label{\IC{1396}}}\vskip11.797cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip14.329cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\mu$}}}\vskip5.138cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip10.634cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\zeta$}}}\vskip1.094cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip9.057cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\beta$}}}\vskip4.435cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip7.100cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\gamma$}}}\vskip2.047cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip0.334cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\varepsilon$}}}\vskip0.713cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip5.045cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\beta$}}}\vskip1.151cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip11.552cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\alpha$}}}\vskip7.346cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip12.011cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\gamma$}}}\vskip10.638cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip13.068cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\beta$}}}\vskip11.472cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip5.182cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\alpha$}}}\vskip8.452cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip5.975cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\gamma$}}}\vskip7.281cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip5.052cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\varepsilon$}}}\vskip5.678cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip7.718cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\delta$}}}\vskip8.688cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip10.642cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\gamma$}}}\vskip5.370cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip11.070cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\beta$}}}\vskip6.044cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip3.067cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\zeta$}}}\vskip12.330cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip13.271cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\eta$}}}\vskip14.495cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip11.382cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\zeta$}}}\vskip14.524cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip4.774cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\alpha$}}}\vskip13.369cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip8.683cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\delta$}}}\vskip14.390cm\hrule height 0pt}\hss}%
+\newrgbcolor{dummycolor}{0.000 0.000 0.000}\dummycolor
+  \psset{linecolor=dummycolor}%
+\hbox to 0pt{\hskip6.136cm\vbox to 0pt{\vss
+  \hbox{\Label{\Starname{$\eta$}}}\vskip12.960cm\hrule height 0pt}\hss}%
+\endpsclip
+\hfill}}\end{document}

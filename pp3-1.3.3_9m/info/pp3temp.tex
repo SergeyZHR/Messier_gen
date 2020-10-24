@@ -1,0 +1,307 @@
+\documentclass[10pt]{article}
+
+\nofiles\usepackage[dvips]{color}
+\usepackage{pstricks,pst-text}
+\newcommand*{\DP}{.}
+\newcommand*{\TicMark}[1]{#1}
+\newcommand*{\Label}[1]{#1}
+\newcommand*{\TextLabel}[1]{#1}
+\newcommand*{\FlexLabel}[1]{#1}
+\newcommand*{\Starname}[1]{#1}
+\newcommand*{\Messier}[1]{M\,#1}
+\newcommand*{\NGC}[1]{NGC\,#1}
+\newcommand*{\IC}[1]{IC\,#1}
+
+\input manual.tex
+
+\begin{document}
+\newwrite\labelsfile
+\catcode`\_=11  % for underscores in the filename
+\immediate\openout\labelsfile=pp3temp.dat
+\catcode`\_=8
+\setbox0 = \hbox{\Label{\FlexLabel{Orion}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\FlexLabel{Bull}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\FlexLabel{Twins}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\FlexLabel{Unicorn}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\FlexLabel{Hare}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\FlexLabel{Big Dog}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\FlexLabel{Eridanus}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\eta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$27$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$17$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$20$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$23$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$19$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\footnotesize Betelgeuse}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\footnotesize Aldebaran}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\beta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\zeta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\pi^{3  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\vartheta^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\lambda$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\varepsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\lambda$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\pi^{4  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\pi^{5  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\vartheta^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\nu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$o^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\phi^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$32$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\kappa^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$88$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$90$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\upsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\tau$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\mu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta^{3  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$37$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\pi^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$119$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\chi^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\phi^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\rho$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\pi^{6  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$71$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\footnotesize Procyon}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\footnotesize Pollux}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\mu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\beta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\varepsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\eta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\xi$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\kappa$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\lambda$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\zeta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\iota$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\upsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\mu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\nu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$1$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\sigma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\kappa$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\nu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\varepsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$18$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\xi$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$30$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\iota$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\zeta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\footnotesize Castor}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\rho$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\tau$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\tau^{6  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\pi$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\footnotesize Rigel}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\varepsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\zeta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\kappa$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\alpha$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\iota$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\beta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\varepsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\mu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\eta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\zeta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\tau$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\eta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\sigma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$53$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\nu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\mu$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$o^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$29$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\lambda$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$54$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\kappa$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\omega$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$o^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\iota$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\footnotesize Sirius}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\varepsilon$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\beta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\eta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$o^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\xi$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\sigma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\omega$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$o^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\alpha$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\nu^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$3$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\vartheta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\gamma$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$11$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\xi^{1  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\iota$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\tau$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\nu^{3  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\beta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\rho$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\zeta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$16$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\upsilon^{2  }$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\zeta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\delta$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\kappa$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\setbox0 = \hbox{\Label{\Starname{$\lambda$}}}
+  \immediate\write\labelsfile{\the\wd0s \the\ht0s \the\dp0s}
+\immediate\closeout\labelsfile
+\end{document}
